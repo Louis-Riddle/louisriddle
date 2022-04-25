@@ -27,6 +27,20 @@ const Introduction = (props) => {
         headerStyles={cardStyles.header}
         textStyles={cardStyles.text}
       />
+      <Card
+        header="20+"
+        text="Completed Projects"
+        containerStyles={cardStyles.container}
+        headerStyles={cardStyles.header}
+        textStyles={cardStyles.text}
+      />
+      <Card
+        header="10+"
+        text="Happy Clients"
+        containerStyles={cardStyles.container}
+        headerStyles={cardStyles.header}
+        textStyles={cardStyles.text}
+      />
     </div>
   );
 };
