@@ -15,7 +15,7 @@
 
 .introduction {
   text-align: center;
-  padding: 1em;
+  padding: 30px;
   color: white;
   display: flex;
   flex-direction: column;
@@ -28,7 +28,6 @@ h1 {
 }
 
 .name {
-  text-decoration: underline;
   color: #ffb742;
 }
 
@@ -44,4 +43,5 @@ h1 {
   box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.6);
   transform: translatey(0px);
   animation: float 6s ease-in-out infinite;
+  margin: 1.5em 0;
 }

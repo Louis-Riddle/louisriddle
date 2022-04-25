@@ -1,6 +1,5 @@
 import React from "react";
 import Image from "../UI/Image";
-import Button from "../UI/Button";
 import HamburgerMenu from "../UI/HamburgerMenu";
 
 import logo from "../Assets/logo.png";
