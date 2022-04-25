@@ -13,7 +13,7 @@ const AboutMe = (props) => {
         classStyles={styles.image}
       />
       <h2 className={styles.aboutMe}>
-        <span className={styles.whoIAm}>WHO I AM</span>
+        <span className={styles.whoIAm}>INTRO</span>
         <br />
         About Me
       </h2>
