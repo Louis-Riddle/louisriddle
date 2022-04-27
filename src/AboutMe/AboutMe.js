@@ -3,6 +3,7 @@ import Image from "../UI/Image";
 import styles from "./AboutMe.module.css";
 import thinkingMan from "../Assets/thinkingMan.png";
 import Button from "../UI/Button";
+import SectionTitle from "../UI/SectionTitle";
 
 const AboutMe = (props) => {
   return (
@@ -12,11 +13,7 @@ const AboutMe = (props) => {
         alt="Louis thinking about coding"
         classStyles={styles.image}
       />
-      <h2 className={styles.aboutMe}>
-        <span className={styles.whoIAm}>INTRO</span>
-        <br />
-        About Me
-      </h2>
+      <SectionTitle subHeading="WHO I AM" heading="About Me" />
       <p className={styles.paragraph}>
         Hi! I am Louis Riddle, and I am a developer who has a passion for
         building clean web applications with intuitive functionality. I enjoy

@@ -1,0 +1,13 @@
+.subHeading {
+  color: #ffb742;
+  font-size: small;
+  background-color: #292b2e;
+  padding: 0.5em 0.75em;
+  border-radius: 25px;
+}
+
+.heading {
+  color: white;
+  line-height: 1.2em;
+  font-size: 1.75em;
+}

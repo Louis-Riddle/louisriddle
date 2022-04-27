@@ -15,21 +15,6 @@
   align-self: center;
 }
 
-.whoIAm {
-  color: #ffb742;
-  font-size: small;
-  background-color: #292b2e;
-  padding: 0.5em 0.75em;
-  border-radius: 25px;
-}
-
-.aboutMe {
-  color: white;
-  line-height: 1.1em;
-  font-size: 1.75em;
-  align-self: flex-start;
-}
-
 .paragraph {
   font-weight: 300;
   margin-bottom: 2em;
