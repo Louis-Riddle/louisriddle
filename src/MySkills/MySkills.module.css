@@ -1,0 +1,10 @@
+.container {
+  margin: 0 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.p {
+  color: white;
+  margin: 20px 0;
+}

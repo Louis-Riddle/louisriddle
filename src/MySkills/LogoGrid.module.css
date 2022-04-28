@@ -1,0 +1,41 @@
+@keyframes grow {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.1);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.logo {
+  width: 60px;
+  background-color: #383e45;
+  margin: 0.25em;
+  padding: 0.35em;
+  border-radius: 5px;
+}
+
+.logo:hover {
+  animation: grow 0.75s;
+}
+
+.listItem {
+  list-style: none;
+}
+
+li:nth-child(3) > img {
+  width: 55px;
+  margin: 0.25em;
+  padding: 0.55em;
+}

@@ -4,7 +4,7 @@ import styles from "./SectionTitle.module.css";
 const SectionTitle = (props) => {
   return (
     <div>
-      <h2 className={(styles.heading, styles.container)}>
+      <h2 className={styles.heading}>
         <span className={styles.subHeading}>{props.subHeading}</span>
         <br />
         {props.heading}
