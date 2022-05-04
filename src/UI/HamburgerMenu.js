@@ -14,11 +14,11 @@ const HamburgerMenu = () => {
       onClick={onClickHandler}
     >
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
-        <g stroke-width="6.5" stroke-linecap="round">
+        <g strokeWidth="6.5" strokeLinecap="round">
           <path
             d="M72 82.286h28.75"
             fill="#009100"
-            fill-rule="evenodd"
+            fillRule="evenodd"
             stroke="#fff"
           />
           <path
@@ -29,7 +29,7 @@ const HamburgerMenu = () => {
           <path
             d="M72 125.143h28.75"
             fill="#009100"
-            fill-rule="evenodd"
+            fillRule="evenodd"
             stroke="#fff"
           />
           <path
@@ -40,13 +40,13 @@ const HamburgerMenu = () => {
           <path
             d="M100.75 82.286h28.75"
             fill="#009100"
-            fill-rule="evenodd"
+            fillRule="evenodd"
             stroke="#fff"
           />
           <path
             d="M100.75 125.143h28.75"
             fill="#009100"
-            fill-rule="evenodd"
+            fillRule="evenodd"
             stroke="#fff"
           />
         </g>
