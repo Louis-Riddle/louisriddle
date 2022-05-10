@@ -17,7 +17,7 @@ const MySkills = (props) => {
         I develop simple, intuitive and responsive user interface that helps
         users get things done with less effort and time with those technologies.
       </p>
-      <Button text="Hire Me" />
+      <Button text="Hire Me" classStyles={styles.button} />
     </div>
   );
 };

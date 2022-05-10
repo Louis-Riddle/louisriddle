@@ -4,6 +4,7 @@ import Introduction from "./Introduction/Introduction";
 import AboutMe from "./AboutMe/AboutMe";
 import MySkills from "./MySkills/MySkills";
 import FeaturedWorks from "./FeaturedWorks/FeaturedWorks";
+import Footer from "./Footer/Footer";
 
 import "./App.module.css";
 
@@ -15,6 +16,7 @@ function App() {
       <AboutMe />
       <MySkills />
       <FeaturedWorks />
+      <Footer />
     </div>
   );
 }

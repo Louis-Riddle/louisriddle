@@ -1,0 +1,35 @@
+.container {
+  display: flex;
+  background-color: #000;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px;
+}
+
+.nameContainer {
+  align-self: flex-start;
+}
+
+.name {
+  color: #ffb742;
+}
+
+.occupation {
+  color: #d4d4d4;
+}
+
+.listHeader {
+  color: white;
+}
+
+.usefulLinks {
+  list-style: none;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
+
+.link {
+  text-decoration: inherit;
+  color: #7b7b7b;
+}

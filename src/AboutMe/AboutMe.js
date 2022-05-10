@@ -23,7 +23,7 @@ const AboutMe = (props) => {
         with creative teams, which involves daily communications, source
         control, and project management.
       </p>
-      <Button text="Hire Me" />
+      <Button text="Hire Me" classStyles={styles.button} />
     </div>
   );
 };
