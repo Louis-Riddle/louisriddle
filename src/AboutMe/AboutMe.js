@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "../UI/Image";
 import styles from "./AboutMe.module.css";
-import thinkingMan from "../Assets/thinkingMan.png";
+import LouisRiddle from "../Assets/LouisRiddle.png";
 import Button from "../UI/Button";
 import SectionTitle from "../UI/SectionTitle";
 
@@ -9,7 +9,7 @@ const AboutMe = (props) => {
   return (
     <div className={styles.container}>
       <Image
-        src={thinkingMan}
+        src={LouisRiddle}
         alt="Louis thinking about coding"
         classStyles={styles.image}
       />

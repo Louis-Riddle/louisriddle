@@ -7,11 +7,12 @@
 }
 
 .nameContainer {
-  align-self: flex-start;
+  width: 33%;
 }
 
 .name {
   color: #ffb742;
+  margin: 0;
 }
 
 .occupation {
@@ -27,9 +28,14 @@
   text-decoration: none;
   margin: 0;
   padding: 0;
+  font-size: 0.8em;
 }
 
 .link {
   text-decoration: inherit;
   color: #7b7b7b;
+}
+
+.logo {
+  width: 33%;
 }
