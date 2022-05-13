@@ -13,11 +13,12 @@
   border-radius: 30px;
   font-weight: 900;
   font-size: 0.7em;
+  text-decoration: none;
+  text-align: center;
 }
 
 .button:hover {
   color: #ffb742;
   background-color: #000;
   border: 3px solid #ffb742;
-  box-sizing: border-box;
 }

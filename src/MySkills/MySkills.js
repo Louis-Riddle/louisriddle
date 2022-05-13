@@ -7,7 +7,7 @@ import styles from "./MySkills.module.css";
 
 const MySkills = (props) => {
   return (
-    <div className={styles.container}>
+    <div className={styles.container} id="MySkills">
       <SectionTitle
         subHeading="MY SKILLS"
         heading="What My Programming Skills Include?"
@@ -17,7 +17,11 @@ const MySkills = (props) => {
         I develop simple, intuitive and responsive user interface that helps
         users get things done with less effort and time with those technologies.
       </p>
-      <Button text="Hire Me" classStyles={styles.button} />
+      <Button
+        text="Hire Me"
+        classStyles={styles.button}
+        href="mailto:riddlelouis43@gmail.com"
+      />
     </div>
   );
 };

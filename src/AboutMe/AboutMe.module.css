@@ -30,6 +30,8 @@
   border: none;
   font-weight: 900;
   font-size: medium;
+  text-decoration: none;
+  text-align: center;
 }
 
 .button:hover {

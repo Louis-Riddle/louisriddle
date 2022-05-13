@@ -7,7 +7,7 @@ import SectionTitle from "../UI/SectionTitle";
 
 const AboutMe = (props) => {
   return (
-    <div className={styles.container}>
+    <div className={styles.container} id="AboutMe">
       <Image
         src={LouisRiddle}
         alt="Louis thinking about coding"
@@ -23,7 +23,11 @@ const AboutMe = (props) => {
         with creative teams, which involves daily communications, source
         control, and project management.
       </p>
-      <Button text="Hire Me" classStyles={styles.button} />
+      <Button
+        text="Hire Me"
+        classStyles={styles.button}
+        href="mailto:riddlelouis43@gmail.com"
+      />
     </div>
   );
 };

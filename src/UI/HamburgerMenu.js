@@ -1,11 +1,12 @@
 import React, { useState } from "react";
 import "./HamburgerMenu.css";
 
-const HamburgerMenu = () => {
+const HamburgerMenu = (props) => {
   const [isActive, setIsActive] = useState(false);
 
-  const onClickHandler = () => {
+  const onClickHandler = (e) => {
     setIsActive(!isActive);
+    props.setDisplay(!props.displayState);
   };
 
   return (
