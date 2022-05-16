@@ -14,7 +14,11 @@ const HamburgerMenu = (props) => {
       className={`container${isActive ? " active" : ""}`}
       onClick={onClickHandler}
     >
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 200 200"
+        className="svg"
+      >
         <g strokeWidth="6.5" strokeLinecap="round">
           <path
             d="M72 82.286h28.75"

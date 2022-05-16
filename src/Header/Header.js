@@ -11,7 +11,7 @@ const Header = (props) => {
 
   return (
     <div className={styles.headerContainer}>
-      <Image src={logo} alt="Logo of Louis' Site" className={styles.logo} />
+      <Image src={logo} alt="Logo of Louis' Site" classStyles={styles.logo} />
       <HamburgerMenu displayState={displayMenu} setDisplay={setDisplayMenu} />
       <MobileMenu displayState={displayMenu} setDisplay={setDisplayMenu} />
     </div>

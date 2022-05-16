@@ -59,3 +59,9 @@
   padding: 0.5em 0.2em;
   border-bottom: 1px #ffb742 solid;
 }
+
+@media (min-width: 768px) {
+  .container {
+    display: none;
+  }
+}
