@@ -13,6 +13,7 @@ const Header = (props) => {
     <div className={styles.headerContainer}>
       <Image src={logo} alt="Logo of Louis' Site" classStyles={styles.logo} />
       <HamburgerMenu displayState={displayMenu} setDisplay={setDisplayMenu} />
+
       <MobileMenu displayState={displayMenu} setDisplay={setDisplayMenu} />
     </div>
   );
