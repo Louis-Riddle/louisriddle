@@ -22,3 +22,10 @@
   background-color: #000;
   border: 3px solid #ffb742;
 }
+
+@media (min-width: 1024px) {
+  .container {
+    max-width: 1024px;
+    margin: auto;
+  }
+}
