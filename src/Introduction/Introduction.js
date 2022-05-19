@@ -14,7 +14,7 @@ const Introduction = (props) => {
         <br />
         <span className={introStyles.title}>Front-End Developer</span>
       </h1>
-      <p>I Code Beautifully Simple Thing, And I Love What I Do.</p>
+      <p>I Code Beautifully Simple Things, And I Love What I Do.</p>
       <Image
         src={avatar}
         alt="Louis' avatar"
