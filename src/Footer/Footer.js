@@ -8,9 +8,13 @@ const Footer = (props) => {
     <div className={styles.container}>
       <div className={styles.nameContainer}>
         <h2 className={styles.name}>Louis Riddle</h2>
-        <p className={styles.occupation}>Front-end Web Developer</p>
+        <p className={styles.occupation}>
+          Front-end
+          <br />
+          Web Developer
+        </p>
       </div>
-      <div>
+      <div className={styles.listContainer}>
         <h5 className={styles.listHeader}>Useful Links</h5>
         <ul className={styles.usefulLinks}>
           <li>
@@ -40,8 +44,6 @@ const Footer = (props) => {
           </li>
         </ul>
       </div>
-
-      <Image src={logo} classStyles={styles.logo} />
     </div>
   );
 };

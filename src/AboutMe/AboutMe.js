@@ -2,7 +2,6 @@ import React from "react";
 import Image from "../UI/Image";
 import styles from "./AboutMe.module.css";
 import LouisRiddle from "../Assets/LouisRiddle.png";
-import Button from "../UI/Button";
 import SectionTitle from "../UI/SectionTitle";
 
 const AboutMe = (props) => {
@@ -25,12 +24,6 @@ const AboutMe = (props) => {
           control, and project management.
         </p>
       </div>
-
-      <Button
-        text="Hire Me"
-        classStyles={styles.button}
-        href="mailto:riddlelouis43@gmail.com"
-      />
     </div>
   );
 };

@@ -3,7 +3,7 @@
   background-color: #000;
   align-items: center;
   justify-content: space-between;
-  padding: 30px;
+  padding: 60px 30px 30px;
 }
 
 .nameContainer {
@@ -13,14 +13,17 @@
 .name {
   color: #ffb742;
   margin: 0;
+  white-space: nowrap;
 }
 
 .occupation {
   color: #d4d4d4;
+  white-space: nowrap;
 }
 
 .listHeader {
   color: white;
+  margin: 0;
 }
 
 .usefulLinks {
@@ -34,8 +37,42 @@
 .link {
   text-decoration: inherit;
   color: #7b7b7b;
+  text-emphasis: none;
 }
 
-.logo {
-  width: 33%;
+@media (min-width: 768px) {
+  .container {
+    padding: 90px 30px 60px;
+  }
+
+  .nameContainer {
+    align-self: center;
+  }
+
+  .listContainer {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+  }
+
+  .listHeader {
+    margin: 0 0 0.5em;
+    align-self: center;
+    font-size: 1.2em;
+  }
+  .usefulLinks {
+    display: flex;
+    font-size: 1em;
+  }
+
+  .link {
+    margin: 0 0.5em;
+  }
+
+  .logo {
+    width: 40%;
+    transform: translate(30px, -35px);
+    border-radius: 5px;
+    z-index: 1;
+  }
 }

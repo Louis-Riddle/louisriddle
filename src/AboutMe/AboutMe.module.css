@@ -50,8 +50,8 @@
   }
 
   .image {
-    width: 25vw;
-    transform: translateX(3.5em);
+    width: 200px;
+    transform: translateX(3em);
   }
 
   .textContainer {
