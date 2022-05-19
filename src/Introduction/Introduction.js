@@ -4,7 +4,7 @@ import Card from "../UI/Card";
 
 import avatar from "../Assets/avatar.png";
 import introStyles from "./Introduction.module.css";
-import cardStyles from "../UI/IntroCard.module.css";
+import cardStyles from "./IntroCard.module.css";
 
 const Introduction = (props) => {
   return (
@@ -20,27 +20,29 @@ const Introduction = (props) => {
         alt="Louis' avatar"
         classStyles={introStyles.avatar}
       />
-      <Card
-        header="1+"
-        text="Years of Experience"
-        containerStyles={cardStyles.container}
-        headerStyles={cardStyles.header}
-        textStyles={cardStyles.text}
-      />
-      <Card
-        header="20+"
-        text="Completed Projects"
-        containerStyles={cardStyles.container}
-        headerStyles={cardStyles.header}
-        textStyles={cardStyles.text}
-      />
-      <Card
-        header="10+"
-        text="Happy Clients"
-        containerStyles={cardStyles.container}
-        headerStyles={cardStyles.header}
-        textStyles={cardStyles.text}
-      />
+      <div className={introStyles.cardContainer}>
+        <Card
+          header="1+"
+          text="Years of Experience"
+          containerStyles={cardStyles.container}
+          headerStyles={cardStyles.header}
+          textStyles={cardStyles.text}
+        />
+        <Card
+          header="20+"
+          text="Completed Projects"
+          containerStyles={cardStyles.container}
+          headerStyles={cardStyles.header}
+          textStyles={cardStyles.text}
+        />
+        <Card
+          header="10+"
+          text="Happy Clients"
+          containerStyles={cardStyles.container}
+          headerStyles={cardStyles.header}
+          textStyles={cardStyles.text}
+        />
+      </div>
     </div>
   );
 };

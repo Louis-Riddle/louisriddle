@@ -45,3 +45,13 @@ h1 {
   animation: float 6s ease-in-out infinite;
   margin: 1.5em 0;
 }
+
+@media (min-width: 768px) {
+  .cardContainer {
+    display: flex;
+  }
+
+  .avatar {
+    width: 25%;
+  }
+}
