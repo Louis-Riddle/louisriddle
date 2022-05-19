@@ -28,3 +28,20 @@
   border: 3px solid #ffb742;
   box-sizing: border-box;
 }
+
+@media (min-width: 768px) {
+  .container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .textContainer {
+    width: 40vw;
+  }
+
+  .button {
+    width: 30%;
+  }
+}

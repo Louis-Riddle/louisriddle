@@ -12,7 +12,6 @@
 
 .image {
   width: 200px;
-
   align-self: center;
 }
 
@@ -39,4 +38,29 @@
   background-color: transparent;
   border: 3px solid #ffb742;
   box-sizing: border-box;
+}
+
+@media (min-width: 768px) {
+  .container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-position: 15px 65px;
+    background-size: 350px;
+  }
+
+  .image {
+    width: 25vw;
+    transform: translateX(3.5em);
+  }
+
+  .textContainer {
+    width: 50vw;
+    margin-left: auto;
+  }
+
+  .button {
+    width: 100%;
+    margin-top: 1em;
+  }
 }
