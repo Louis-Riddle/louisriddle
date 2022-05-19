@@ -1,7 +1,5 @@
 import React from "react";
 import styles from "./Footer.module.css";
-import Image from "../UI/Image";
-import logo from "../Assets/logo.png";
 
 const Footer = (props) => {
   return (

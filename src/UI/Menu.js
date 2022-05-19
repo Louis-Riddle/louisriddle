@@ -1,14 +1,10 @@
 import styles from "./Menu.module.css";
 
 const Menu = (props) => {
-  // const displayMenu = {
-  //   display: props.displayState ? "block" : "none",
-  // };
-
   return (
     <div className={styles.container}>
       <ul className={styles.menuContainer}>
-        <a href="#" className={styles.removeUnderline}>
+        <a href="#Home" className={styles.removeUnderline}>
           <li className={styles.menuItem}>Home</li>
         </a>
         <a href="#AboutMe" className={styles.removeUnderline}>
