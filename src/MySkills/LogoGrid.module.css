@@ -37,7 +37,6 @@
 
 li:nth-child(3) > img {
   width: 54px;
-  margin: 0.5em 0.5em 0;
   padding: 0.55em;
 }
 
@@ -55,6 +54,5 @@ li:nth-child(3) > img {
 
   li:nth-child(3) > img {
     width: 64px;
-    padding: 0.55em;
   }
 }
